@@ -1,21 +1,25 @@
 import React from 'react'
-import styled from 'styled-components';
+import './Header.css'
+import { Avatar } from '@material-ui/core';
+
 
 function Header() {
     return (
-        <HeaderContainer>
-            {/* Header Left */}
-            <h1>hello</h1>
+        <div className = 'header'>
+            <div className = 'header__left'>
+                <div className = 'header__avatar'>
 
-            {/* Header Middle */}
+                </div>
 
-            {/* Header Right */}
-        </HeaderContainer>
+            </div>
+            <div className = 'header__middle'>
+
+            </div>
+            <div className = 'header__right'>
+
+            </div>
+        </div>
     );
 }
 
 export default Header;
-
-const HeaderContainer = styled.div`
-    color: antiquewhite;
-`;
