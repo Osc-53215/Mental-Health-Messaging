@@ -1,4 +1,13 @@
+* {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
+  --messaging-color: #128F8B;
+  overflow: hidden;
+
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
