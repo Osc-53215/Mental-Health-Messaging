@@ -1,25 +1,29 @@
-import React from 'react'
-import './Header.css'
 import { Avatar } from '@material-ui/core';
-
+import React from 'react'
+import styled from 'styled-components';
 
 function Header() {
     return (
-        <div className = 'header'>
-            <div className = 'header__left'>
-                <div className = 'header__avatar'>
+        <HeaderContainer>
+            <HeaderLeft>
+                <HeaderAvatar />
+            </HeaderLeft>
 
-                </div>
+            {/* Header Middle */}
 
-            </div>
-            <div className = 'header__middle'>
-
-            </div>
-            <div className = 'header__right'>
-
-            </div>
-        </div>
+            {/* Header Right */}
+        </HeaderContainer>
     );
 }
 
 export default Header;
+
+const HeaderContainer = styled.div`
+    
+`;
+const HeaderLeft = styled.div`
+    
+`;
+const HeaderAvatar = styled(Avatar)`
+    
+`;
